@@ -1,0 +1,27 @@
+.form input {
+  font-family: 'Montserrat', sans-serif;
+  padding: 4px 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 1rem;
+  width: 150px;
+  height: 30px;
+}
+.form input:focus {
+  outline: none;
+  border-width: 2px;
+}
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+.form input::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+/* Internet Explorer 10-11 */
+.form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+/* Microsoft Edge */
+.form input::-ms-input-placeholder {
+  color: #ffffff;
+}
