@@ -14,7 +14,6 @@ export default function MoviesListView({ movies }) {
                 alt={movie.title}
                 width={330}
                 height={440}
-                layout="fill"
               />
             </a>
           </Link>

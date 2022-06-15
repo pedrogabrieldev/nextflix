@@ -11,7 +11,6 @@ export default function MovieView({ movie }) {
           alt={movie.title}
           width={450}
           height={600}
-          layout="fill"
         />
       </div>
       <div className={styles.info}>
